@@ -1,0 +1,39 @@
+h1 {
+    color: yellow;
+}
+.parent {
+    color: blue;
+}
+#uniqueparentsP {
+    color: chocolate;
+}
+input[type*=text] {
+    color: red;
+}
+ol li:first-child {
+    color: palevioletred;
+}
+div p {
+    color: fuchsia ;
+}
+div > span {
+    color: green;
+}
+h2+h3 {
+    color: orange;
+}
+p.parent1 {
+    color: blue;
+}
+#uniqueparentsP2.parent1 {
+    color: chartreuse;
+}
+div #uniqueparentsP3 {
+    color: rgb(255, 55, 0);
+}
+img[alt*=url] {
+    color: cyan;
+}
+div img[src*=photo] {
+    color: blueviolet;
+}
